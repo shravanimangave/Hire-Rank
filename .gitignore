@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv
+venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+*.sqlite3
+*.db
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Test outputs
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Node
+node_modules/
+*.log
+dist/
+bun.lockb
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# Uploads
+uploads/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore local uploads but keep the folder
+!uploads/.gitkeep
